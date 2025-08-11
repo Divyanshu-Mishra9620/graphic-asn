@@ -78,7 +78,7 @@ const FloatingShapes = () => {
       },
       {
         name: "Shape9",
-        initial: { y: "65%", x: "45%", size: "50px" },
+        initial: { y: "80%", x: "45%", size: "50px" },
         gradient: "from-cyan-300 to-blue-400",
       },
       {
@@ -120,12 +120,12 @@ const FloatingShapes = () => {
                 width: initial.size,
                 height: initial.size,
               }}
-              initial={{ opacity: 0 }}
+              initial={{ opacity: 1 }}
               animate={{
                 y: [0, -20 + Math.random() * 40],
                 x: [0, -10 + Math.random() * 20],
                 rotate: [0, -30 + Math.random() * 60],
-                opacity: [0, 0.4 + Math.random() * 0.3, 0],
+                opacity: [1, 0.4 + Math.random() * 0.3, 1],
               }}
               transition={transition}
             >

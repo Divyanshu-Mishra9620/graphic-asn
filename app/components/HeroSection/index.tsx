@@ -129,11 +129,7 @@ const HeroSection = () => {
                 disabled:cursor-not-allowed disabled:opacity-70
               "
             >
-              {isLoading ? (
-                <LoadingSpinner size="sm" color="purple" />
-              ) : (
-                "✨ Suggest with AI"
-              )}
+              ✨ Suggest with AI
             </button>
           </div>
 
